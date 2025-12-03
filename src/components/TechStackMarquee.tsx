@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const tech = [
-    { name: 'Kinesis', src: '/icons/tech/kinesis.svg' },
+    { name: 'Kinesis', src: '/icons/tech/Kinesis.svg' },
     { name: 'Lambda', src: '/icons/tech/Lambda.svg' },
-    { name: 'Step Functions', src: '/icons/tech/step functions.svg' },
+    { name: 'Step Functions', src: '/icons/tech/Step-Functions.svg' },
     { name: 'SageMaker', src: '/icons/tech/SageMaker.svg' },
     { name: 'Cloud Formation', src: '/icons/tech/CloudFormation.svg' },
     { name: 'Cognito', src: '/icons/tech/Cognito.svg' },
