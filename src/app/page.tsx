@@ -308,66 +308,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-      {/* Testimonials – Social Proof */}
-      <section id="testimonials" className="py-24 px-4 bg-muted/20">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-16">What Colleagues Say</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Testimonial 1 */}
-            <Card className="p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-primary">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-2xl font-bold text-primary">
-                  SK
-                </div>
-                <div>
-                  <p className="font-semibold text-lg">Sachin Kumar</p>
-                  <p className="text-muted-foreground text-sm">Senior Data Engineer – TCS (Vanguard)</p>
-                </div>
-              </div>
-              <blockquote className="text-muted-foreground italic">
-                “Bhavik is the most dependable engineer on our team. He consistently delivers complex PySpark ETLs ahead of schedule, owns production issues end-to-end, and never hesitates to help juniors. His calm and systematic approach under tight regulatory deadlines is exactly what Vanguard expects from TCS.”
-              </blockquote>
-            </Card>
-
-            {/* Testimonial 2 */}
-            <Card className="p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-primary">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-2xl font-bold text-primary">
-                  AS
-                </div>
-                <div>
-                  <p className="font-semibold text-lg">Abhishek Shukla</p>
-                  <p className="text-muted-foreground text-sm">Team Lead – TCS (Vanguard)</p>
-                </div>
-              </div>
-              <blockquote className="text-muted-foreground italic">
-                “I’ve worked with many fresh engineers, but Bhavik stands out for his ownership and communication. He proactively coordinates with US stakeholders, documents everything clearly, and follows up until the job is 100% production-ready. A true pleasure to have on the team.”
-              </blockquote>
-            </Card>
-
-            {/* Testimonial 3 */}
-            <Card className="p-8 hover:shadow-2xl transition-all duration-300 border-l-4 border-primary">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center text-2xl font-bold text-primary">
-                  HS
-                </div>
-                <div>
-                  <p className="font-semibold text-lg">Himalaya Sahu</p>
-                  <p className="text-muted-foreground text-sm">Architect – TCS (Vanguard)</p>
-                </div>
-              </div>
-              <blockquote className="text-muted-foreground italic">
-                “Bhavik combines strong technical depth with exceptional work ethic. He voluntarily stays back to resolve critical issues, mentors new joiners, and always keeps the bigger picture in mind. He’s the kind of engineer every financial services project needs.”
-              </blockquote>
-            </Card>
-          </div>
-
-          <p className="text-center text-sm text-muted-foreground mt-12">
-            Real feedback from LinkedIn & internal TCS reviews
-          </p>
-        </div>
-      </section>
 
       <footer className="py-12 text-center border-t">
         <p className="text-muted-foreground">

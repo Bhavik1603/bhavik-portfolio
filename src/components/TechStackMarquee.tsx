@@ -53,7 +53,7 @@ export default function TechStackMarquee() {
                                 alt={item.name}
                                 width={160}
                                 height={80}
-                                className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all"
+                                className="max-w-full max-h-full object-contain filter  hover:grayscale-0 transition-all"
                             />
                         </div>
                     ))}
@@ -75,7 +75,7 @@ export default function TechStackMarquee() {
                                 alt={item.name}
                                 width={160}
                                 height={80}
-                                className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all"
+                                className="max-w-full max-h-full object-contain filter  hover:grayscale-0 transition-all"
                             />
                         </div>
                     ))}
