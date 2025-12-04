@@ -177,7 +177,7 @@ export default function Home() {
             </Card>
 
             {/* Project 3 - NEW */}
-            <Card className="p-6 hover:shadow-2xl transition-all group border-primary/30">
+            <Card className="p-6 hover:shadow-2xl transition-all group">
               <div className="flex items-center gap-2 mb-2">
 
                 <Badge>72% Cost Reduction</Badge>
@@ -193,7 +193,7 @@ export default function Home() {
             </Card>
 
             {/* Project 4 - NEW */}
-            <Card className="p-6 hover:shadow-2xl transition-all group border-primary/30">
+            <Card className="p-6 hover:shadow-2xl transition-all group">
               <div className="flex items-center gap-2 mb-2">
 
                 <Badge>RTO &lt; 3 min</Badge>
@@ -209,7 +209,7 @@ export default function Home() {
             </Card>
 
             {/* Project 5 - NEW */}
-            <Card className="p-6 hover:shadow-2xl transition-all group border-primary/30">
+            <Card className="p-6 hover:shadow-2xl transition-all group">
               <div className="flex items-center gap-2 mb-2">
 
                 <Badge>LLM-Powered</Badge>
